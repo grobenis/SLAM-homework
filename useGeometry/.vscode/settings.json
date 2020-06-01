@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "dense": "cpp",
+        "iostream": "cpp",
+        "cholesky": "cpp",
+        "householder": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}

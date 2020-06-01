@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/guoben/Project/useGeometry/build",
+  "command": "/usr/bin/g++-7   -I\"/home/guoben/Project/useGeometry/\\$$\" -I/home/guoben/Project/useGeometry/cmake  -g   -o CMakeFiles/useGeometry.dir/useGeometry.cpp.o -c /home/guoben/Project/useGeometry/useGeometry.cpp",
+  "file": "/home/guoben/Project/useGeometry/useGeometry.cpp"
+}
+]
