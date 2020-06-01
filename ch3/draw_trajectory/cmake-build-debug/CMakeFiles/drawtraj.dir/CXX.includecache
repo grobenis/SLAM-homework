@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guoben/Project/SLAM-homework/ch3/draw_trajectory/rmse.cpp
+string
+-
+iostream
+-
+fstream
+-
+unistd.h
+-
+pangolin/pangolin.h
+-
+sophus/se3.h
+-
+
