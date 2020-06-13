@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/guoben/Project/SLAM-homework/ch4/undistort/undistort_image.cpp" "/home/guoben/Project/SLAM-homework/ch4/undistort/build/CMakeFiles/undistort.dir/undistort_image.cpp.o"
+  "/home/guoben/Project/SLAM-homework/ch4 相机模型与非线性优化/undistort/undistort_image.cpp" "/home/guoben/Project/SLAM-homework/ch4 相机模型与非线性优化/undistort/build/CMakeFiles/undistort.dir/undistort_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

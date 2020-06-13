@@ -1,4 +1,4 @@
-# Install script for directory: /home/guoben/Project/SLAM-homework/ch4/undistort
+# Install script for directory: /home/guoben/Project/SLAM-homework/ch4 相机模型与非线性优化/undistort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/guoben/Project/SLAM-homework/ch4/undistort/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/guoben/Project/SLAM-homework/ch4 相机模型与非线性优化/undistort/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
