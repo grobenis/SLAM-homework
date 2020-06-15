@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/guoben/Project/SLAM-homework/ORB_extrater/computeORB.cpp" "/home/guoben/Project/SLAM-homework/ORB_extrater/cmake-build-debug/CMakeFiles/orb.dir/computeORB.cpp.o"
+  "/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/ORB_extrater/computeORB.cpp" "/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/ORB_extrater/cmake-build-debug/CMakeFiles/orb.dir/computeORB.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

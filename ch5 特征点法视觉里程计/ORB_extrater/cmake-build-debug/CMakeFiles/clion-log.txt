@@ -1,4 +1,4 @@
-/home/guoben/Software/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/guoben/Project/SLAM-homework/ORB_extrater
+/home/guoben/Software/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/ORB_extrater"
 -- The C compiler identification is GNU 7.5.0
 -- The CXX compiler identification is GNU 7.5.0
 -- Check for working C compiler: /usr/bin/cc
@@ -16,4 +16,4 @@
 -- Found OpenCV: /usr (found version "3.2.0") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/guoben/Project/SLAM-homework/ORB_extrater/cmake-build-debug
+-- Build files have been written to: /home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/ORB_extrater/cmake-build-debug
