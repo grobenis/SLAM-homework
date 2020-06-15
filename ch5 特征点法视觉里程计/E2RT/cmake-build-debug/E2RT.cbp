@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="E2RT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\Software\;CMake Files\..\..\..\..\Software\Sophus\;CMake Files\..\..\..\..\Software\Sophus\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="e2rt">
+				<Option output="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/bin/e2rt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/guoben/Software/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 e2rt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="e2rt/fast">
+				<Option output="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/bin/e2rt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/guoben/Software/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 e2rt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch5\ 特征点法视觉里程计/E2RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/E2Rt.cpp">
+			<Option target="e2rt"/>
+		</Unit>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/E2RT/../../../../Software/Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Software\Sophus\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

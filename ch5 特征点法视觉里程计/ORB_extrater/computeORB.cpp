@@ -82,6 +82,7 @@ int main(int argc, char **argv) {
     // compute angle for each keypoint
     computeAngle(second_image, keypoints2);
 
+//    cout << "desc"<<endl;
     // compute ORB descriptors
     vector<DescType> descriptors2;
     computeORBDesc(second_image, keypoints2, descriptors2);
@@ -115,13 +116,13 @@ void computeAngle(const cv::Mat &image, vector<cv::KeyPoint> &keypoints) {
         if((u-8>=0) && (u+7)<=image.cols &&(v-8>=0)&& (u+7)<=image.rows){
             for (int i = -8; i <= 7; ++i) {
                 for (int j = -8; j <= 7; ++j) {
-                    m01 += j * image.at<uchar>(u + i, v + i) ;
-                    m10 += i * image.at<uchar>(u + i, v + j) ;
+                    m01 += (v + j) * image.at<uchar>(v + j, u + i) ;
+                    m10 += (u + i) * image.at<uchar>(v + j, u + i) ;
                 }
             }
             kp.angle = atan(m01 / m10) / pi *180;
+//            kp.angle = atan2(m01 , m10) / pi *180;
         }
-
         // END YOUR CODE HERE
     }
     return;
@@ -396,20 +397,20 @@ void computeORBDesc(const cv::Mat &image, vector<cv::KeyPoint> &keypoints, vecto
             // START YOUR CODE HERE (~7 lines)
             d[i] = 0;  // if kp goes outside, set d.clear()
             float theta = kp.angle /180 *pi;
-            int u = kp.pt.x,v=kp.pt.y;
-//            int u_p= u + ORB_pattern[4*i],v_p= v + ORB_pattern[4*i+1],u_q= u + ORB_pattern[4*i+2],v_q= v + ORB_pattern[4*i+3];
-            int u_p = ORB_pattern[4*i],v_p = ORB_pattern[4*i+1],u_q = ORB_pattern[4*i+2],v_q = ORB_pattern[4*i+3];
-            if( u_p>=0&&u_p<=image.cols && v_p>=0&&v_p<=image.rows && u_q>=0&&u_q<=image.cols&&v_q>=0&&v_q<=image.rows) {
-                float u_p1 = cos(theta) * u_p - sin(theta) * v_p;
-                float v_p1 = sin(theta) * u_p + cos(theta) * v_p;
-                float u_q1 = cos(theta) * u_q - sin(theta) * v_q;
-                float v_q1 = sin(theta) * u_q + cos(theta) * v_q;
-                if (u_p1 >= 0 && u_p1 <= image.cols && v_p1 >= 0 && v_p1 <= image.rows && u_q1 >= 0 &&
-                    u_q1 <= image.cols && v_q1 >= 0 && v_q1 <= image.rows) {
-                    if (image.at<uchar>(u_p1, v_p1) < image.at<uchar>(u_q1, v_q1))
+            int u = kp.pt.x, v = kp.pt.y;
+            int u_p = ORB_pattern[4*i], v_p = ORB_pattern[4*i+1], u_q = ORB_pattern[4*i+2],v_q = ORB_pattern[4*i+3];
+            float u_p1 = cos(theta) * u_p - sin(theta) * v_p + u;
+            float v_p1 = sin(theta) * u_p + cos(theta) * v_p + v;
+            float u_q1 = cos(theta) * u_q - sin(theta) * v_q + u;
+            float v_q1 = sin(theta) * u_q + cos(theta) * v_q + v;
+            if (u_p1 >= 0 && u_p1 <= image.cols && v_p1 >= 0 && v_p1 <= image.rows &&
+                u_q1 >= 0 && u_q1 <= image.cols && v_q1 >= 0 && v_q1 <= image.rows) {
+                    if (image.at<uchar>(v_p1, u_p1) < image.at<uchar>(v_q1, u_q1))
                         d[i] = true;
-                } else
-                    d.clear();
+            } else
+            {
+                d.clear();
+                break;
             }
 	    // END YOUR CODE HERE
         }
@@ -424,30 +425,32 @@ void computeORBDesc(const cv::Mat &image, vector<cv::KeyPoint> &keypoints, vecto
     return;
 }
 
+
+
 // brute-force matching
 void bfMatch(const vector<DescType> &desc1, const vector<DescType> &desc2, vector<cv::DMatch> &matches) {
-    int d_max = 50;
-
+    int d_max = 60;
     // START YOUR CODE HERE (~12 lines)
     // find matches between desc1 and desc2.
     for(int i = 0;i<desc1.size();i++) {
         int mindis = INT_MAX;
         int index = -1;
         for(int j = 0;j<desc2.size();j++) {
-            
-            int dis = 0;
-            
-            for(int k = 0;k< 256 ; k++){
-                if(desc1[i][k]!=desc2[j][k])
-                    dis+= 1;
-            }
-            
-            if(dis<mindis) {
-                index = j;
-                mindis = dis;
+            if(!desc1[i].empty()&&!desc2[j].empty())
+            {
+                int dis = 0;
+                for(int k = 0;k< 256 ; k++){
+                    if(desc1[i][k]!=desc2[j][k])
+                        dis+= 1;
+                }
+                // 更新最小距离和指数
+                if(dis<mindis) {
+                    index = j;
+                    mindis = dis;
+                }
             }
         }
-        if(mindis<=d_max)
+        if(mindis<d_max&&index!=-1)
             matches.push_back(cv::DMatch(i,index,mindis));
     }
     // END YOUR CODE HERE
