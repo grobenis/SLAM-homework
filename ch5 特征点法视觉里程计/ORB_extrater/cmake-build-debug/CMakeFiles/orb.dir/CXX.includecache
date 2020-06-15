@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guoben/Project/SLAM-homework/ORB_extrater/computeORB.cpp
+opencv2/opencv.hpp
+-
+math.h
+-
+string
+-
+

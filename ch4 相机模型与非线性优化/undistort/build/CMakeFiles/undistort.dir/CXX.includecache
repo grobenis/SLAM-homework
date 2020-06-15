@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/guoben/Project/SLAM-homework/ch4/undistort/undistort_image.cpp
+/home/guoben/Project/SLAM-homework/ch4 相机模型与非线性优化/undistort/undistort_image.cpp
 opencv2/opencv.hpp
 -
 string

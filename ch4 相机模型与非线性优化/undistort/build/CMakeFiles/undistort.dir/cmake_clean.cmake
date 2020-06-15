@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/undistort.dir/undistort_image.cpp.o"
-  "../bin/undistort.pdb"
   "../bin/undistort"
+  "../bin/undistort.pdb"
+  "CMakeFiles/undistort.dir/undistort_image.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
