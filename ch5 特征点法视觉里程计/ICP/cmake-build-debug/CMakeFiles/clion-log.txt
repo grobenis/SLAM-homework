@@ -1,0 +1,4 @@
+/home/guoben/Software/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/ICP"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/ICP/cmake-build-debug
