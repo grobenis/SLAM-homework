@@ -1,0 +1,3 @@
+/home/guoben/Project/LK/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/guoben/Project/LK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/guoben/Project/LK/cmake-build-debug/CMakeFiles/LK.dir
