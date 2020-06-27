@@ -17,8 +17,7 @@ double fx = 718.856, fy = 718.856, cx = 607.1928, cy = 185.2157;
 double baseline = 0.573;
 // paths
 string left_file = "./left.png";
-string right_file = "./right.png";
-string disparity_file = "./disparity.pngw";
+string disparity_file = "./disparity.png";
 boost::format fmt_others("./%06d.png");    // other files
 
 // useful typedefs
@@ -81,7 +80,11 @@ int main(int argc, char **argv) {
     // estimates 01~05.png's pose using this information
     Sophus::SE3 T_cur_ref;
 
-    DirectPoseEstimationMultiLayer(left_img, img, pixels_ref, depth_ref, T_cur_ref);
+    for (int i = 1; i < 6; i++) {  // 1~10
+        cv::Mat img = cv::imread((fmt_others % i).str(), 0);
+        DirectPoseEstimationSingleLayer(left_img, img, pixels_ref, depth_ref, T_cur_ref);    // first you need to test single layer
+//        DirectPoseEstimationMultiLayer(left_img, img, pixels_ref, depth_ref, T_cur_ref);
+    }
     return 0;
 }
 
