@@ -14,7 +14,7 @@
     <list default="true" id="c6b3e0fc-02db-4249-aa64-baf1ae51a3c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/DM" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DM.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DM.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DM.dir/direct_method.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DM.dir/direct_method.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/direct_method.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/direct_method.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../作业/曾是少年-第六章作业.md" beforeDir="false" afterPath="$PROJECT_DIR$/../作业/曾是少年-第六章作业.md" afterDir="false" />
     </list>
@@ -63,7 +63,9 @@
       <updated>1593127397913</updated>
       <workItem from="1593127399173" duration="8120000" />
       <workItem from="1593186286164" duration="173000" />
-      <workItem from="1593227467991" duration="2555000" />
+      <workItem from="1593227467991" duration="3176000" />
+      <workItem from="1593245401531" duration="123000" />
+      <workItem from="1593245569287" duration="4334000" />
     </task>
     <servers />
   </component>
@@ -75,22 +77,22 @@
       <screen x="0" y="41" width="2160" height="1399" />
     </state>
     <state x="757" y="384" width="636" height="719" key="FileChooserDialogImpl/0.41.2160.1399@0.41.2160.1399" timestamp="1593186455609" />
-    <state width="2092" height="194" key="GridCell.Tab.0.bottom" timestamp="1593242957893">
+    <state width="822" height="551" key="GridCell.Tab.0.bottom" timestamp="1593258614709">
       <screen x="0" y="41" width="2160" height="1399" />
     </state>
-    <state width="2092" height="194" key="GridCell.Tab.0.bottom/0.41.2160.1399@0.41.2160.1399" timestamp="1593242957893" />
-    <state width="2092" height="194" key="GridCell.Tab.0.center" timestamp="1593242957893">
+    <state width="822" height="551" key="GridCell.Tab.0.bottom/0.41.2160.1399@0.41.2160.1399" timestamp="1593258614709" />
+    <state width="822" height="551" key="GridCell.Tab.0.center" timestamp="1593258614709">
       <screen x="0" y="41" width="2160" height="1399" />
     </state>
-    <state width="2092" height="194" key="GridCell.Tab.0.center/0.41.2160.1399@0.41.2160.1399" timestamp="1593242957893" />
-    <state width="2092" height="194" key="GridCell.Tab.0.left" timestamp="1593242957893">
+    <state width="822" height="551" key="GridCell.Tab.0.center/0.41.2160.1399@0.41.2160.1399" timestamp="1593258614709" />
+    <state width="822" height="551" key="GridCell.Tab.0.left" timestamp="1593258614709">
       <screen x="0" y="41" width="2160" height="1399" />
     </state>
-    <state width="2092" height="194" key="GridCell.Tab.0.left/0.41.2160.1399@0.41.2160.1399" timestamp="1593242957893" />
-    <state width="2092" height="194" key="GridCell.Tab.0.right" timestamp="1593242957893">
+    <state width="822" height="551" key="GridCell.Tab.0.left/0.41.2160.1399@0.41.2160.1399" timestamp="1593258614709" />
+    <state width="822" height="551" key="GridCell.Tab.0.right" timestamp="1593258614709">
       <screen x="0" y="41" width="2160" height="1399" />
     </state>
-    <state width="2092" height="194" key="GridCell.Tab.0.right/0.41.2160.1399@0.41.2160.1399" timestamp="1593242957893" />
+    <state width="822" height="551" key="GridCell.Tab.0.right/0.41.2160.1399@0.41.2160.1399" timestamp="1593258614709" />
     <state x="1006" y="39" width="1009" height="1470" key="search.everywhere.popup" timestamp="1593136687943">
       <screen x="0" y="41" width="2160" height="1399" />
     </state>

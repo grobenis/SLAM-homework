@@ -82,8 +82,8 @@ int main(int argc, char **argv) {
 
     for (int i = 1; i < 6; i++) {  // 1~10
         cv::Mat img = cv::imread((fmt_others % i).str(), 0);
-        DirectPoseEstimationSingleLayer(left_img, img, pixels_ref, depth_ref, T_cur_ref);    // first you need to test single layer
-//        DirectPoseEstimationMultiLayer(left_img, img, pixels_ref, depth_ref, T_cur_ref);
+//        DirectPoseEstimationSingleLayer(left_img, img, pixels_ref, depth_ref, T_cur_ref);    // first you need to test single layer
+        DirectPoseEstimationMultiLayer(left_img, img, pixels_ref, depth_ref, T_cur_ref);
     }
     return 0;
 }
@@ -123,6 +123,9 @@ void DirectPoseEstimationSingleLayer(
             Eigen::Vector3d point_cur = T21*point_ref;
             u = fx*point_cur.x()/point_cur.z()+cx;
             v = fy*point_cur.y()/point_cur.z()+cy;
+
+            if(u<half_patch_size||u>img2.cols-half_patch_size||v<half_patch_size||v>img2.rows-half_patch_size)
+                continue;
 
             nGood++;
             goodProjection.push_back(Eigen::Vector2d(u, v));
@@ -185,7 +188,7 @@ void DirectPoseEstimationSingleLayer(
             break;
         }
         lastCost = cost;
-        cout << "cost = " << cost << ", good = " << nGood << endl;
+//        cout << "cost = " << cost << ", good = " << nGood << endl;
     }
     cout << "good projection: " << nGood << endl;
     cout << "T21 = \n" << T21.matrix() << endl;
