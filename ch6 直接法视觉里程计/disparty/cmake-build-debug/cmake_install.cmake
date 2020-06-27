@@ -1,4 +1,4 @@
-# Install script for directory: /home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method
+# Install script for directory: /home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

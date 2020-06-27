@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/direct_method.cpp" "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug/CMakeFiles/DM.dir/direct_method.cpp.o"
+  "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/disp.cpp" "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/cmake-build-debug/CMakeFiles/DISP.dir/disp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

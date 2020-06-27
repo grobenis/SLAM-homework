@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/guoben/Project/Direct_method/direct_method.cpp
+/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/disp.cpp
 opencv2/opencv.hpp
--
+/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/opencv2/opencv.hpp
 sophus/se3.h
 -
 Eigen/Core
@@ -20,6 +20,8 @@ string
 boost/format.hpp
 -
 pangolin/pangolin.h
+-
+numeric
 -
 
 /usr/include/eigen3/Eigen/Cholesky

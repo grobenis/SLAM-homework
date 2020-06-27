@@ -48,10 +48,10 @@ RM = /home/guoben/Software/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cma
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method"
+CMAKE_SOURCE_DIR = "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug/CMakeFiles" "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/cmake-build-debug/CMakeFiles" "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/disparty/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DM
+# Target rules for targets named DISP
 
 # Build rule for target.
-DM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DM
-.PHONY : DM
+DISP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DISP
+.PHONY : DISP
 
 # fast build rule for target.
-DM/fast:
-	$(MAKE) -f CMakeFiles/DM.dir/build.make CMakeFiles/DM.dir/build
-.PHONY : DM/fast
+DISP/fast:
+	$(MAKE) -f CMakeFiles/DISP.dir/build.make CMakeFiles/DISP.dir/build
+.PHONY : DISP/fast
 
-direct_method.o: direct_method.cpp.o
+disp.o: disp.cpp.o
 
-.PHONY : direct_method.o
+.PHONY : disp.o
 
 # target to build an object file
-direct_method.cpp.o:
-	$(MAKE) -f CMakeFiles/DM.dir/build.make CMakeFiles/DM.dir/direct_method.cpp.o
-.PHONY : direct_method.cpp.o
+disp.cpp.o:
+	$(MAKE) -f CMakeFiles/DISP.dir/build.make CMakeFiles/DISP.dir/disp.cpp.o
+.PHONY : disp.cpp.o
 
-direct_method.i: direct_method.cpp.i
+disp.i: disp.cpp.i
 
-.PHONY : direct_method.i
+.PHONY : disp.i
 
 # target to preprocess a source file
-direct_method.cpp.i:
-	$(MAKE) -f CMakeFiles/DM.dir/build.make CMakeFiles/DM.dir/direct_method.cpp.i
-.PHONY : direct_method.cpp.i
+disp.cpp.i:
+	$(MAKE) -f CMakeFiles/DISP.dir/build.make CMakeFiles/DISP.dir/disp.cpp.i
+.PHONY : disp.cpp.i
 
-direct_method.s: direct_method.cpp.s
+disp.s: disp.cpp.s
 
-.PHONY : direct_method.s
+.PHONY : disp.s
 
 # target to generate assembly for a file
-direct_method.cpp.s:
-	$(MAKE) -f CMakeFiles/DM.dir/build.make CMakeFiles/DM.dir/direct_method.cpp.s
-.PHONY : direct_method.cpp.s
+disp.cpp.s:
+	$(MAKE) -f CMakeFiles/DISP.dir/build.make CMakeFiles/DISP.dir/disp.cpp.s
+.PHONY : disp.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... DM"
+	@echo "... DISP"
 	@echo "... edit_cache"
-	@echo "... direct_method.o"
-	@echo "... direct_method.i"
-	@echo "... direct_method.s"
+	@echo "... disp.o"
+	@echo "... disp.i"
+	@echo "... disp.s"
 .PHONY : help
 
 

@@ -5,31 +5,31 @@
 		<Option title="DM"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\..\..\Software\;CMake Files\..\..\Software\Sophus\;CMake Files\..\..\Software\Sophus\build\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\..\..\..\..\Software\;CMake Files\..\..\..\..\Software\Sophus\;CMake Files\..\..\..\..\Software\Sophus\build\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/guoben/Project/Direct_method/cmake-build-debug"/>
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/guoben/Project/Direct_method/cmake-build-debug"/>
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DM">
-				<Option output="/home/guoben/Project/Direct_method/bin/DM" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/guoben/Project/Direct_method/bin"/>
+				<Option output="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/bin/DM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -47,15 +47,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 DM"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 DM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DM/fast">
-				<Option output="/home/guoben/Project/Direct_method/bin/DM" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/guoben/Project/Direct_method/bin"/>
+				<Option output="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/bin/DM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,64 +73,64 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 DM/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 DM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/guoben/Project/Direct_method/cmake-build-debug"/>
+				<Option working_dir="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guoben/Project/SLAM-homework/ch6\ 直接法视觉里程计/Direct_method/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/guoben/Project/Direct_method/direct_method.cpp">
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/direct_method.cpp">
 			<Option target="DM"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/CMakeLists.txt">
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/share/OpenCV/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
 		</Unit>
-		<Unit filename="/home/guoben/Project/Direct_method/../../Software/Sophus/build/SophusConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\Software\Sophus\build\"/>
+		<Unit filename="/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/Direct_method/../../../../Software/Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Software\Sophus\build\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
