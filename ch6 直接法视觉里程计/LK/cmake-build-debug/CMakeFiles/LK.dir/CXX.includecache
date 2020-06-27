@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/guoben/Project/LK/optical_flow.cpp
+/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/LK/optical_flow.cpp
 opencv2/opencv.hpp
 -
 string

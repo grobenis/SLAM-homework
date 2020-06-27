@@ -88,8 +88,8 @@ int main(int argc, char **argv) {
     // 在图2中追踪关键点
     vector<KeyPoint> kp2_single;
     vector<bool> success_single;
-    // OpticalFlowSingleLevel(img1, img2, kp1, kp2_single, success_single);
-    OpticalFlowSingleLevel(img1, img2, kp1, kp2_single, success_single,true);
+     OpticalFlowSingleLevel(img1, img2, kp1, kp2_single, success_single);
+//    OpticalFlowSingleLevel(img1, img2, kp1, kp2_single, success_single,true);
 
     // then test multi-level LK
     // 测试多层LK

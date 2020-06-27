@@ -1,4 +1,4 @@
-# Install script for directory: /home/guoben/Project/LK
+# Install script for directory: /home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/LK
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/guoben/Project/LK/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/guoben/Project/SLAM-homework/ch6 直接法视觉里程计/LK/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

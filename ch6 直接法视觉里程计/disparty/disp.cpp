@@ -59,8 +59,8 @@ int main()
     // 利用单层直接法估计
     Sophus::SE3 T_cur_ref;
     cout<<"T_cur_ref"<<T_cur_ref<<endl;
-    VecVector2d pixel_right = DirectPoseEstimationSingleLayer(left_img, right_img, pixels_ref, depth_ref, T_cur_ref);
-//    VecVector2d pixel_right = DirectPoseEstimationMultiLayer(left_img, right_img, pixels_ref, depth_ref, T_cur_ref);
+//    VecVector2d pixel_right = DirectPoseEstimationSingleLayer(left_img, right_img, pixels_ref, depth_ref, T_cur_ref);
+    VecVector2d pixel_right = DirectPoseEstimationMultiLayer(left_img, right_img, pixels_ref, depth_ref, T_cur_ref);
 
     //视差计算
     vector<double > disp;
