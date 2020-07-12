@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/guoben/Project/Curse/SLAM_ch1_Direct_BA/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/eigen3 -I/usr/include/suitesparse -isystem /usr/local/include -isystem /usr/local/include/opencv  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/DirectBA.dir/directBA.cpp.o -c /home/guoben/Project/Curse/SLAM_ch1_Direct_BA/directBA.cpp",
+  "file": "/home/guoben/Project/Curse/SLAM_ch1_Direct_BA/directBA.cpp"
+}
+]
