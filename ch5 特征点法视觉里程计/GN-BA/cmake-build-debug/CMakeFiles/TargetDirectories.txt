@@ -1,3 +1,0 @@
-/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/GN-BA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/GN-BA/cmake-build-debug/CMakeFiles/GNBA.dir
-/home/guoben/Project/SLAM-homework/ch5 特征点法视觉里程计/GN-BA/cmake-build-debug/CMakeFiles/edit_cache.dir

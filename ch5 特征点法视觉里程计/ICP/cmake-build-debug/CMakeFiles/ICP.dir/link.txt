@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/ICP.dir/main.cpp.o  -o ../bin/ICP -Wl,-rpath,/usr/local/lib /usr/local/lib/libSophus.so /usr/local/lib/libpangolin.so -lGL -lGLU -lGLEW -lX11 -lpython3.6m -ldc1394 -lOpenNI -lOpenNI2 -lpng -lz -ljpeg -ltiff -lIlmImf 
